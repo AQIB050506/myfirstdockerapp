@@ -31,3 +31,5 @@ jobs:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         run: |
           docker push "$DOCKER_USERNAME/flask-app:latest"
+
+
